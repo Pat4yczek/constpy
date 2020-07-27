@@ -1,7 +1,7 @@
 import unittest
-from constpy import *
+import constpy as const
 import math
 
 class TestConstPy(unittest.TestCase):
     def testMathConst(self):
-        self.assertEqual(ConstPy.get('pi'), math.pi)
+        self.assertEqual(const.get('pi'), math.pi)
